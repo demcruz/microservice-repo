@@ -1,1 +1,23 @@
 
+server:
+  port: 8855
+  servelet: null
+  context-path: /acesso-api
+spring:
+  application:
+    name: acesso-api
+  jpa:
+    show-sql: false
+    hibernate:
+      ddl-auto: update
+      show-sql: true
+      open-in-view: true
+    properties:
+      hibernate: null
+      dialect: org.hibernate.dialect.MySQL8Dialect
+  jmx:
+    enabled: false
+  datasource:
+    url: jdbc:mysql://localhost:3306/acesso?allowPublicKeyRetrieval=true&sslMode=DISABLED&useSSL=false&serverTimezone=UTC
+    username: root
+    password: mysql
