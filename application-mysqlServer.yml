@@ -1,11 +1,5 @@
 
-server:
-  port: 8855
-  servelet: null
-  context-path: /acesso-api
 spring:
-  application:
-    name: acesso-api
   jpa:
     show-sql: false
     hibernate:
