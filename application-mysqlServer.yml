@@ -1,6 +1,4 @@
 spring:
-  application:
-    name: hr-worker
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://demcruzsystem.cldyuyxqjeig.sa-east-1.rds.amazonaws.com/sys?useTimezone=true&serverTimezone=UTC
