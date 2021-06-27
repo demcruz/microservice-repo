@@ -1,17 +1,17 @@
-
 spring:
-  jpa:
-    show-sql: false
-    hibernate:
-      ddl-auto: update
-      show-sql: true
-      open-in-view: true
-    properties:
-      hibernate: null
-      dialect: org.hibernate.dialect.MySQL8Dialect
-  jmx:
-    enabled: false
+  application:
+    name: hr-worker
   datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://demcruzsystem.cldyuyxqjeig.sa-east-1.rds.amazonaws.com/sys?useTimezone=true&serverTimezone=UTC
     username: admin
     password: mysqlaws
+  jpa:
+    generate-ddl: true
+    hibernate:
+      ddl-auto: update
+    open-in-view: true
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL8Dialect
+    show-sql: true
