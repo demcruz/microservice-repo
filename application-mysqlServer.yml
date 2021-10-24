@@ -16,5 +16,5 @@ spring:
 eureka:
   client:
     service-url:
-      defaultZone: http://18.228.152.161:8761/
+      defaultZone: http://ec2-18-228-152-161.sa-east-1.compute.amazonaws.com:8761/
 
