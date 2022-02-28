@@ -5,7 +5,6 @@ spring:
     username: admin
     password: mysqlaws
   jpa:
-    generate-ddl: true
     hibernate:
       ddl-auto: none
     open-in-view: true
