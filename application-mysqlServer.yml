@@ -7,6 +7,7 @@ spring:
   jpa:
     hibernate:
       ddl-auto: none
+      naming_strategy: org.hibernate.cfg.EJB3NamingStrategy
     open-in-view: true
     show-sql: true
     properties:
